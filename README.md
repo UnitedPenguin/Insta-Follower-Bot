@@ -10,12 +10,14 @@
 ## Usage
 
 1. Download the repository containing the `Insta_follower_bot.pyw` script.
-2. Open the `Insta_follower_bot.pyw` script in a text editor.
+2. Open the `Insta_follower_bot.pyw` script in a text editor. Check the comments for things that you may need to change!
 3. Replace `YOUR_PROFILE` in the `INSTAGRAM_LINK` variable with the username of the Instagram profile you wish for your target to follow. It should look something like `https://www.instagram.com/example_username/`.
 3. Save the script.
 4. Run the script on the targets machine.
 5. Profit.
 
+## Unique Features
+- The script will delete itself after execution, leaving no trace behind, not even in the Recycle Bin.
 
 ## Disclaimer
 
