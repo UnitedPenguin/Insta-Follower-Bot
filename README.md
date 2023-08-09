@@ -19,6 +19,9 @@
 ## Unique Features
 - The script will delete itself after execution, leaving no trace behind, not even in the Recycle Bin.
 
+## Changelog
+The full Changelog can be found [here](https://github.com/UnitedPenguin/Insta-Follower-Bot/blob/main/Changelog.md).
+
 ## Disclaimer
 
 This tool is meant for research purposes only. The developer and contributors are not responsible for any misuse or for any damages that you may cause. You agree that you use this software at your own risk. Interactions with platforms like Instagram can violate their terms of service. Use this script responsibly and ethically.
