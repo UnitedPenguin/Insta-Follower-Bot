@@ -4,7 +4,7 @@
 
 1. **Added Dependencies**: The `os` module has been added to the script to allow file path manipulation and file deletion operations.
 2. **Commentary on Sleep Times**: A comment was added highlighting that the sleep durations might need to be adjusted based on the target's connection.
-3. **Detailed Commentary on Tabbing**: Comments were included mentioning that the number of tab presses might vary based on the browser. Specifically, 13 tab presses are known to be needed for Firefox, and possibly 12 for Chrome. Further testing was indicated as necessary.
+3. **Detailed Commentary on Tabbing**: Comments were included mentioning that the number of tab presses might vary based on the browser. Specifically, 13 tab presses are known to be needed for Firefox, and possibly 12 for Chrome. Further testing is necessary.
 4. **Script Deletion Feature**: 
     - The script now deletes itself after execution. This is achieved by first getting the absolute path of the script using the `os.path.abspath()` function.
     - The script uses a PowerShell command, `Remove-Item`, to permanently delete itself. The `-Force` flag ensures that the file bypasses the Recycle Bin.
