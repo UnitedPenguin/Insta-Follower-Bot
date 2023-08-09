@@ -17,7 +17,7 @@
 5. Profit.
 
 ## Unique Features
-- The script will delete itself after execution, leaving no trace behind, not even in the Recycle Bin.
+- The script will delete itself after execution, or in case of error, leaving no trace behind, not even in the Recycle Bin.
 
 ## Changelog
 The full Changelog can be found [here](https://github.com/UnitedPenguin/Insta-Follower-Bot/blob/main/Changelog.md).
