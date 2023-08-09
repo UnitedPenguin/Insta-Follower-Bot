@@ -1,5 +1,11 @@
 ## Changelog
 
+### V1.2.0
+
+1. **Enhanced Script Deletion**: The script now has added functionality to delete itself using the bypass method if it encounters any errors during its operation. This ensures that the script doesn't remain on the system even if it crashes or doesn't complete its intended tasks.
+2. **Updated Tabbing Movements**: After extensive testing with over 10 browsers, including the most popular ones, it was confirmed that all of them required 13 tab movements. Therefore, the script has been updated to use 13 tab presses as the default setting.
+3. **Fixed Import Issues**: Addressed and fixed bugs related to the `webbrowser` module not being imported correctly.
+
 ### V1.1.0
 
 1. **Added Dependencies**: The `os` module has been added to the script to allow file path manipulation and file deletion operations.
