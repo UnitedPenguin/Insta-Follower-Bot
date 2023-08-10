@@ -6,7 +6,7 @@
     - Introduced a configuration file (`instagram_link.ini`) to store the Instagram profile link, making it easier to change the profile link without having to edit the main script.
     - Added the `configparser` module to read settings from the configuration file.
 2. **Profile Picture Check**:
-    - Added a `Profile_picture` flag to determine if the target profile has a profile picture. This adjusts the number of 'tab' key presses accordingly.
+    - Added a `Profile_picture` flag to determine if the profile has a profile picture. This adjusts the number of 'tab' key presses accordingly.
     - If `Profile_picture` is set to `True`, the 'tab' key is pressed 13 times; if set to `False`, it's pressed 12 times.
 3. **Active Window Check**:
     - Integrated the `pygetwindow` library to check if an Instagram window is active based on its title. This ensures the script only proceeds when the target page is loaded.
