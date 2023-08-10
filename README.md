@@ -9,17 +9,16 @@
 
 ## Usage
 
-1. Download the repository containing the `Insta_follower_bot.pyw` script and the `instagram_link.ini` configuration file.
-2. Open the `instagram_link.ini` configuration file in a text editor and replace `https://www.instagram.com/YOUR_PROFILE` with the link to the Instagram profile you want your target to follow.
-3. If your Instagram profile does not have a profile picture, open the `Insta_follower_bot.pyw` script in a text editor and set the `Profile_picture` variable to `False`.
-4. (Optional) For advanced users: If you prefer not to use a configuration file, you can edit the `Insta_follower_bot.pyw` script directly and adjust the `INSTAGRAM_LINK` variable. Ensure to add a delay (`time.sleep(3)`) after `webbrowser.open(INSTAGRAM_LINK)`.
-5. Run the script on the target's machine.
-6. Profit.
+1. Download the repository containing the `Insta_follower_bot.pyw` script.
+2. Open the `Insta_follower_bot.pyw` script in a text editor. Check the comments for things that you may need to change!
+3. Replace `YOUR_PROFILE` in the `INSTAGRAM_LINK` variable with the username of the Instagram profile you wish for your target to follow. It should look something like `https://www.instagram.com/example_username/`.
+3. Save the script.
+4. Run the script on the targets machine.
+5. Profit.
 
 ## Unique Features
-- The script will delete itself after execution, or in case of an error. 
+- The script will delete itself after execution, or in case of error. 
 - Our Deletion Bypass method leaves no trace of the script behind, not even in the Recycle Bin.
-- Follow method variably, depending on the elements of the profile. 
 
 ## Changelog
 The full Changelog can be found [here](https://github.com/UnitedPenguin/Insta-Follower-Bot/blob/main/Changelog.md).
