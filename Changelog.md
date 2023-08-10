@@ -1,5 +1,23 @@
 ## Changelog
 
+### V2.0.0
+
+1. **Configuration File Integration**:
+    - Introduced a configuration file (`instagram_link.ini`) to store the Instagram profile link, making it easier to change the profile link without having to edit the main script.
+    - Added the `configparser` module to read settings from the configuration file.
+2. **Profile Picture Check**:
+    - Added a `Profile_picture` flag to determine if the target profile has a profile picture. This adjusts the number of 'tab' key presses accordingly.
+    - If `Profile_picture` is set to `True`, the 'tab' key is pressed 13 times; if set to `False`, it's pressed 12 times.
+3. **Active Window Check**:
+    - Integrated the `pygetwindow` library to check if an Instagram window is active based on its title. This ensures the script only proceeds when the target page is loaded.
+    - The script continuously checks if a window with a title containing "Instagram" is active before continuing.
+4. **Enhanced Import Mechanism**:
+    - The script now checks and installs both `pyautogui` and `pygetwindow` if they are not already installed.
+5. **Clarified Instructions**:
+    - Added inline comments to guide users on how to use the script with or without a configuration file.
+6. **Error Handling**:
+    - Extended the error handling, and improved integration with the delete method both in the event of an exception and after successful execution.
+
 ### V1.2.0
 
 1. **Enhanced Script Deletion**: The script now has added functionality to delete itself using the bypass method if it encounters any errors during its operation. This ensures that the script doesn't remain on the system even if it crashes or doesn't complete its intended tasks.
